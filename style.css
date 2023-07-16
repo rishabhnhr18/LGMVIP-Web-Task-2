@@ -1,0 +1,112 @@
+h1 {
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+  display: flex;
+}
+img
+{
+  width: 26%;
+  margin: 0rem 0rem -1rem 1rem;
+}
+header {
+  background-image: linear-gradient(to right, rgb(236, 148, 48), rgb(232, 218, 191));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: -8px;
+}
+
+.brandName, a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: xx-large;
+  font-weight: 700;
+  color: #060605;
+  text-decoration: underline;
+}
+a:hover{
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
+  transition-duration: 0.95s;
+}
+.nav-btn {
+  background-color: rgb(255, 0, 0);
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 0rem 2rem 1rem auto;
+  border-radius: 3rem;
+  cursor: pointer;
+  border: 5px solid rgb(130, 0, 0);
+  font-size:x-large;
+    color: aliceblue;
+}
+
+.nav-btn:hover {
+  color: #060605;
+  text-decoration: underline;
+  border: 5px solid green;
+  background-color: rgb(34, 255, 0);
+  transform: scale(1.05);
+  transition-duration: 0.55s;   
+}
+
+.cards {
+  background-image: linear-gradient(to bottom, rgb(255 255 255) ,rgb(83 64 0));
+  display: inline-table;
+  margin: 2rem 6rem auto 4rem;
+  padding: 0rem 0rem 0rem 2rem;
+  border-radius: 2rem;
+}
+
+.card {
+  width: 400px;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom, rgb(149, 248, 95), beige);
+  box-shadow: 22px 26px 11px 3px rgba(0, 0, 0, 0.8);
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  margin: 3rem;
+}
+.profile-image img {
+    width: 130px;
+    height: 131px;
+    border: 10px solid maroon;
+}
+
+.profile-image img:hover {
+  transform: scale(1.3);
+  transition-duration: 0.95s;
+}
+
+.name
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(64, 30, 30);
+  font-weight: 900;
+    font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+
+}
+.userid
+{
+  margin: 0rem 5rem 0rem 5rem;
+  border-radius: 50px ;
+  background-image:linear-gradient(to right, rgb(111, 185, 245), rgb(147, 246, 246));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: x-large;
+  text-align: center;
+}
+.email
+{
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+  
+}
