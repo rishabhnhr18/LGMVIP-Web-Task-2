@@ -1,2 +1,2 @@
 # LGMVIP-Web-Task-2
-Create a web application using create-react-app.
+Created a web application using create-react-app. Elements: (1) User card grid layout having a navbar showing any brand name(here used 'Lets-Grow-More'). (2) Button in the navbar saying 'Get Users', which makes an API call to get the user data. (3) "https://reqres.in/api/users?page=1" link to get the data. (4) Showing a loader while the API fetches the data(here used 'Fetching Data').
